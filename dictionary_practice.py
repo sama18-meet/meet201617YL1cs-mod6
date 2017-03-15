@@ -6,7 +6,7 @@ my_phonebook={"Statue of Liberty":2125555555, "Ghostbusters":2125551234}
 ###
 #Assign the value of the Statue of Liberty's phone number to the variable, num
 ###
-num = my_phonebook[Statue of Liberty]
+num = my_phonebook["Statue of Liberty"]
 ###
 #Print the variable, num
 ###
@@ -14,7 +14,7 @@ print(num)
 ###
 #Change the value of the Ghostbusters' phone number to 2125559876
 ###
-my_phonebook[Gostbusters]= 2125559876
+my_phonebook["Gostbusters"]= 2125559876
 #Here's an empty dictionary
 your_phonebook={}
 
@@ -37,9 +37,8 @@ your_phonebook['Jerry']=4444
 sequence_of_values = your_phonebook.values()
 sequence_of_keys = your_phonebook.keys()
 for key in sequence_of_keys :
-  print(key, ':' your_phonebook.values(key)
+  print(key , ':', your_phonebook[key]) 
+  #print(sequence_of_keys[key], ':' ,sequence_of_values[key])
 
 #Use the loop to print to the shell the key and value
 #of every element in the dictionary
-###
-
